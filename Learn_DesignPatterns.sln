@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learn_Singleton", "Learn_Singleton\Learn_Singleton.csproj", "{1395525C-7E3B-43D1-BF24-782E874BB392}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learn_Factory_1", "Learn_Factory\Learn_Factory_1.csproj", "{5690DC2F-DEA4-4267-B9D4-929FFD4EE9D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learn_Factory_Logger", "Learn_Factory\Learn_Factory_Logger.csproj", "{5690DC2F-DEA4-4267-B9D4-929FFD4EE9D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn_Factory_DatabaseConnection", "Learn_Factory_2\Learn_Factory_DatabaseConnection.csproj", "{08FA7054-701A-4ED5-9B7E-76654283661F}"
 EndProject
