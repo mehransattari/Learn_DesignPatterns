@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learn_Factory_Logger", "Lea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn_Factory_DatabaseConnection", "Learn_Factory_2\Learn_Factory_DatabaseConnection.csproj", "{08FA7054-701A-4ED5-9B7E-76654283661F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn_Factory_SendMessage", "Learn_Factory_SendMessage\Learn_Factory_SendMessage.csproj", "{339BC099-1384-4F43-921A-EC0DE8DE0684}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{08FA7054-701A-4ED5-9B7E-76654283661F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08FA7054-701A-4ED5-9B7E-76654283661F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08FA7054-701A-4ED5-9B7E-76654283661F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{339BC099-1384-4F43-921A-EC0DE8DE0684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339BC099-1384-4F43-921A-EC0DE8DE0684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339BC099-1384-4F43-921A-EC0DE8DE0684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339BC099-1384-4F43-921A-EC0DE8DE0684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
