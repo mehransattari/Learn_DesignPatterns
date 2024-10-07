@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learn_Observe", "Learn_Obse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learn_AbstractFactory_Payment", "Learn_AbstractFactory_Payment\Learn_AbstractFactory_Payment.csproj", "{72F4A564-86BA-4A10-AABA-EFD0D47C4378}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn_Prototype", "Learn_Prototype\Learn_Prototype.csproj", "{CCCA96DA-789E-4B50-A0E6-5BC31726257A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learn_Prototype", "Learn_Prototype\Learn_Prototype.csproj", "{CCCA96DA-789E-4B50-A0E6-5BC31726257A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn_Decorator", "Learn_Decorator\Learn_Decorator.csproj", "{A620DC3C-87DE-4306-A8F3-89665D761839}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{CCCA96DA-789E-4B50-A0E6-5BC31726257A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCCA96DA-789E-4B50-A0E6-5BC31726257A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCCA96DA-789E-4B50-A0E6-5BC31726257A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A620DC3C-87DE-4306-A8F3-89665D761839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A620DC3C-87DE-4306-A8F3-89665D761839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A620DC3C-87DE-4306-A8F3-89665D761839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A620DC3C-87DE-4306-A8F3-89665D761839}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
