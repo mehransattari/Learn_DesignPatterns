@@ -26,7 +26,14 @@
 // اضافه کردن ناظرها به سهم
 
 // تغییر قیمت سهم
-public interface IObserver
+
+/// <summary>
+/// بخش نمایش قیمت سهم
+/// </summary>
+public class PriceDisplay : IObserver
 {
-    void Update(string stockSymbol, double stockPrice);
+    public void Update(string stockSymbol, double stockPrice)
+    {
+        Console.WriteLine($"Price Display: {stockSymbol} is now ${stockPrice}");
+    }
 }

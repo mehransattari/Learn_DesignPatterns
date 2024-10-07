@@ -26,7 +26,44 @@
 // اضافه کردن ناظرها به سهم
 
 // تغییر قیمت سهم
-public interface IObserver
+/// <summary>
+/// سهم 
+/// </summary>
+public class Stock
 {
-    void Update(string stockSymbol, double stockPrice);
+    private List<IObserver> observers = new List<IObserver>();
+    private string symbol;
+    private double price;
+
+    public Stock(string symbol, double price)
+    {
+        this.symbol = symbol;
+        this.price = price;
+    }
+
+    public void AddObserver(IObserver observer)
+    {
+        observers.Add(observer);
+    }
+
+    public void RemoveObserver(IObserver observer)
+    {
+        observers.Remove(observer);
+    }
+
+    // تغییر قیمت و خبر دادن به همه ناظرها
+    public void SetPrice(double newPrice)
+    {
+        price = newPrice;
+        NotifyObservers();
+    }
+
+    // خبر دادن به همه ناظرها
+    private void NotifyObservers()
+    {
+        foreach (var observer in observers)
+        {
+            observer.Update(symbol, price);
+        }
+    }
 }

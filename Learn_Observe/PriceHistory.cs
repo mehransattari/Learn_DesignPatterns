@@ -26,7 +26,22 @@
 // اضافه کردن ناظرها به سهم
 
 // تغییر قیمت سهم
-public interface IObserver
+
+
+/// <summary>
+/// بخش نمایش قیمت سهم
+/// </summary>
+
+/// <summary>
+/// بخش ارسال ایمیل به کاربر
+/// </summary>
+/// <summary>
+/// بخش ثبت تاریخچه قیمت‌ها
+/// </summary>
+public class PriceHistory : IObserver
 {
-    void Update(string stockSymbol, double stockPrice);
+    public void Update(string stockSymbol, double stockPrice)
+    {
+        Console.WriteLine($"Price History: Logging {stockSymbol} price ${stockPrice} into the database");
+    }
 }

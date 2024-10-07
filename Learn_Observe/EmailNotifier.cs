@@ -26,7 +26,18 @@
 // اضافه کردن ناظرها به سهم
 
 // تغییر قیمت سهم
-public interface IObserver
+
+
+/// <summary>
+/// بخش نمایش قیمت سهم
+/// </summary>
+/// <summary>
+/// بخش ارسال ایمیل به کاربر
+/// </summary>
+public class EmailNotifier : IObserver
 {
-    void Update(string stockSymbol, double stockPrice);
+    public void Update(string stockSymbol, double stockPrice)
+    {
+        Console.WriteLine($"Email Notifier: Sending email - {stockSymbol} price changed to ${stockPrice}");
+    }
 }
