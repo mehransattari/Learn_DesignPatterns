@@ -15,4 +15,4 @@ _userNotifier.Attach(new WelcomeEmailObserver());
 
 _userNotifier.Attach(new AdminNotificationObserver());
 
-_userNotifier.Notify(new User() { FirstName="Mehran",LastName="Sattary"});
+_userNotifier.Notify(new User() { FirstName="Mehran",LastName="Sattary",Email="m@gmail.com"});
