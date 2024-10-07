@@ -4,16 +4,16 @@ namespace Learn_Singleton;
 
 public sealed class CacheManager
 {
-    private static readonly Lazy<CacheManager> _lazyInstance = new Lazy<CacheManager>(() => new CacheManager());
+    private static readonly Lazy<CacheManager> _lazyInstance = 
+        new Lazy<CacheManager>(() => new CacheManager());
     public static CacheManager Instance => _lazyInstance.Value;
+
+    private readonly Dictionary<string, object> cacheStore;
 
     private CacheManager()
     {
         cacheStore = new();
     }
-
-
-    private readonly Dictionary<string, object> cacheStore;
 
     public void AddToCache(string key, object value)
     {
@@ -22,6 +22,7 @@ public sealed class CacheManager
             cacheStore.TryAdd(key, value);
         }
     }
+
     public void RemoveToCache(string key)
     {
         if (!cacheStore.ContainsKey(key))

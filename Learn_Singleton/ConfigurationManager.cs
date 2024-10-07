@@ -4,7 +4,9 @@ namespace Learn_Singleton;
 
 public sealed class ConfigurationManager
 {
-    private static readonly Lazy<ConfigurationManager> lazyInstance = new Lazy<ConfigurationManager>(() => new ConfigurationManager());
+    private static readonly Lazy<ConfigurationManager> lazyInstance = 
+        new Lazy<ConfigurationManager>(() => new ConfigurationManager());
+
     public static ConfigurationManager Instance = lazyInstance.Value;
     private ConfigurationManager()
     {
